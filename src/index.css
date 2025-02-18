@@ -1,0 +1,35 @@
+/* General body styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1ab9af;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Make sure the body takes the full height of the viewport */
+}
+
+/* Container for centering the form */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Full viewport height */
+  width: 100%;  /* Full width */
+}
+
+/* Login form styling */
+.login-form {
+  max-width: 400px;
+  width: 100%;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Optional: If you want to control button size */
+button {
+  width: 100%;
+}
